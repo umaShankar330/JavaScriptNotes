@@ -33,7 +33,7 @@ In this above example when we run the file. At first The js engine creates\alloc
 **`Phase 1 In Memory creation`**:  
 At first the data is stored in `key:value` pairs variable are declared and assigned with `undefined` value Look at below img  
 
-<img src="../firstPhase.PNG" alt="Image" width="450" height="300">
+<img src="https://res.cloudinary.com/dwux3vh4t/image/upload/v1692377514/firstPhase_k6e2tg.png" alt="Image" width="550" height="350">
 
 
 **`phase 2 Code Execution`**:
@@ -43,17 +43,21 @@ But When a `function` is `Invoked` A new `Function excution Context` is **Opened
 
 Now look at num1 and num2 both are invoking the function multiplyBy5 Which creates two function Execution context for both of them. Look at given images and understand.
 
-![Alt text](../func1Gec.PNG)  
-![Alt text](../func1gecdelete.PNG)
-Here for `num1` FUnction Execution context is `created , assigned and deleted`.
-![Alt text](../func2gec1.PNG)
-Same goes for `num2` also.
+<img src="https://res.cloudinary.com/dwux3vh4t/image/upload/v1692377522/func1Gec_h6tgjt.png" alt="Image" width="550" height="350">  
 
-And finally **code execution** is completed the **global execution context** is also **deleted** from **memory** of the **js engine**.
+<img src="https://res.cloudinary.com/dwux3vh4t/image/upload/v1692377532/func1gecdelete_qywyv1.png" alt="Image" width="550" height="350">  
 
-![Alt text](<../Gec Delete.PNG>)
+Here for `num1` FUnction Execution context is `created , assigned and deleted`.  
 
-This how execution context in js works .
+<img src="https://res.cloudinary.com/dwux3vh4t/image/upload/v1692377551/func2gec1_hdjscn.png" alt="Image" width="550" height="350">  
+
+Same goes for `num2` also.  
+
+And finally **code execution** is completed the **global execution context** is also **deleted** from **memory** of the **js engine**.  
+
+<img src="https://res.cloudinary.com/dwux3vh4t/image/upload/v1692377560/Gec_Delete_wg8lga.png" alt="Image" width="550" height="350">  
+
+This how execution context in js works .  
 
 # Call stack in Js
 
