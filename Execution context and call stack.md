@@ -8,7 +8,7 @@ At first when we run the js code ,It basically creates a `globalcontext` and In 
 2. `Code Execution Phase` [where the code is executed in a single thread meaning line by line].  
 &darr;
 3. `Deletion Phase` [Where the created execution context is deleted.]
-<p style:"color:red">hello</p>
+
 ---
 ### Types of execution Phase In Js
 
